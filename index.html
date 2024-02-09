@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portofolio Website - Easy  Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>SOFTWARE DEVELOPER</p>
+            <h1>Hi I'm <span>Hemanth Pacha</span> <br>From India</h1>
+        </div>
+    </div>
+ </div>  
+
+ 
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>An optimistic person who finds opportunities to build the knowledge level and enhance professional
+                    skills by working towards the growth of the organization.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('sports')">Sports</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul class="skill-list">
+                        <li><span>HTML</span> <div class="meter" style="width: 300px;">
+                            <span style="width: 95%;"></span>
+                        </div>
+                            </li>
+                        <li><span>CSS</span> <div class="meter" style="width: 300px;">
+                            <span style="width: 90%;"></span>
+                        </div></li>
+                        <li><span>javaScript</span> <div class="meter" style="width: 300px;">
+                            <span style="width: 80%;"></span>
+                        </div></li>
+                        <li><span>Python</span> <div class="meter" style="width: 300px;">
+                            <span style="width: 70%;"></span>
+                        </div></li>
+                        <li><span>MsOffice</span> <div class="meter" style="width: 300px;">
+                            <span style="width: 95%;"></span>
+                        </div></li>
+                        <li><span>Photography</span> <div class="meter" style="width: 300px;">
+                            <span style="width: 95%;"></span>
+                        </div></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019-2023</span><br>BTech CSE at NBKRIST</li>
+                        <li><span>2017-2019</span><br>Intermediate at Sri Siddardha Junior College</li>
+                        <li><span>2017</span><br> SSC at Sri Chaitanya High School</li>
+                    </ul>
+                </div>
+                <div class="tab-contents"  id="sports">
+                    <ul>
+                        <li><span>NETBALL</span><br>National player</li>
+                        <li><span>SWIMMING</span><br>National player</li>
+                        <li><span>FENCING</span><br>State player</li>
+                        <li><span>FOOTBALL</span><br>National player</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="images/project1.jpg">
+                <div class="layer">
+                    <h3>SIGN LANGUAGE DETECTION</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/project2.jpg">
+                <div class="layer">
+                    <h3>Ecommerce Website</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/project3.jpg">
+                <div class="layer">
+                    <h3>MEDAVISION: A HEALTH ANTICIPATION</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class=""sub-title>Contact Me</h1>
+                <p><i class="fa-solid fa-house"></i>Nellore,Andhra Pradesh</p>
+                <p><i class="fa-solid fa-envelope"></i>pachahemanth01@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/pacha-hemanth-5a9032217?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/hemu0117"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/hemu___5460?igsh=bmZpbzJtM2tjM2xk&utm_source=qr"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.threads.net/@hemu___5460"><i class="fa-brands fa-threads"></i></a>
+                </div>
+                <a href="images/My-CV.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Created By Hemanth Pacha | 2024 All rights reserved.</p>
+    </div>
+</div>
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+    
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw62l08_iLgcCxvYArSI5Dt_sQv9B8-wIBk0QieTZi5yv37yfLqZbBlUSkUa_Grgygl/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function() {
+                msg.innerHTML = ""
+        },5000)
+        form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script>
+    $(".meter > span").each(function() {
+	$(this)
+		.data("origWidth", $(this).width())
+		.width(0)
+		.animate({
+			width: $(this).data("origWidth")
+		}, 1200);
+});
+  </script>
+</body>
+</html>
